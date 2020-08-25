@@ -1,9 +1,12 @@
+//! This crate provides a Deno plugin library.
+
 use deno_core::plugin_api::Buf;
 use deno_core::plugin_api::Interface;
 use deno_core::plugin_api::Op;
 use deno_core::plugin_api::ZeroCopyBuf;
 use futures::future::FutureExt;
 
+/// Initializing the Deno plugin.
 #[no_mangle]
 pub fn deno_plugin_init(interface: &mut dyn Interface) {
   interface.register_op("op_test_sync", op_test_sync);
