@@ -13,8 +13,8 @@ keywords = ["deno", "deno_core", "deno_plguin"]
 crate-type = ["cdylib"]
 
 [dependencies]
-deno_core = "0.54.0"
-futures = "0.3.5"
+deno_core = "0.81.0"
+futures = "0.3.13"
 
 [profile.release]
 codegen-units = 1
