@@ -1,13 +1,13 @@
 [package]
-name = "deno_plguin_starter"
-version = "0.1.2"
+name = "deno_plugin_starter"
+version = "0.1.3"
 authors = ["迷渡 <justjavac@gmail.com>"]
 edition = "2018"
 description = "Quickly start a Deno plugin."
 readme = "README.md"
 repository = "https://github.com/justjavac/deno_plugin_starter"
 license = "MIT"
-keywords = ["deno", "deno_core", "deno_plguin"]
+keywords = ["deno", "deno_core", "deno_plugin"]
 
 [lib]
 crate-type = ["cdylib"]
