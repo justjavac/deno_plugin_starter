@@ -79,9 +79,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            target/release/libdeno_plguin_starter.dylib
-            target/release/libdeno_plguin_starter.so
-            target/release/deno_plguin_starter.dll
+            target/release/libdeno_plugin_starter.dylib
+            target/release/libdeno_plugin_starter.so
+            target/release/deno_plugin_starter.dll
           draft: true
 
       - name: Publish

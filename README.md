@@ -2,8 +2,8 @@
 
 [![Build Status](https://github.com/justjavac/deno_plugin_starter/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/deno_plugin_starter/actions)
 [![tag](https://img.shields.io/github/release/justjavac/deno_plugin_starter)](https://github.com/justjavac/deno_plugin_starter/releases)
-[![Crates.io](https://img.shields.io/crates/v/deno_plguin_starter)](https://crates.io/crates/deno_plguin_starter)
-[![Docs.rs](https://docs.rs/deno_plguin_starter/badge.svg)](https://docs.rs/deno_plguin_starter)
+[![Crates.io](https://img.shields.io/crates/v/deno_plugin_starter)](https://crates.io/crates/deno_plugin_starter)
+[![Docs.rs](https://docs.rs/deno_plugin_starter/badge.svg)](https://docs.rs/deno_plugin_starter)
 [![license](https://img.shields.io/github/license/justjavac/deno_plugin_starter)](https://github.com/justjavac/deno_plugin_starter/blob/master/LICENSE)
 
 Quickly start a Deno plugin.
